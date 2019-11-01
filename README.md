@@ -1,52 +1,4 @@
-# Terrassa - Hugo Theme
-
-Terrassa is a simple, fast and responsive theme for Hugo with a strong focus on accessibility made from scratch.
-
-![Hugo Terrassa theme screenshot](https://github.com/danielkvist/hugo-terrassa-theme/blob/master/images/screenshot.png)
-
-## Features
-
-- Coherent responsive design.
-- Consistent design throughout the entire site.
-- Classic navigation menu in large screen sizes.
-- Hamburger menu in mobile devices.
-- Focus on accessibility.
-- Customizable call to action on the home page.
-- Contact form.
-- Ready for blogging.
-
-## Some things that will be added in the future
-
-- A better hamburger menu.
-- Service Workers.
-- Easier ways to customize fonts and colors.
-- Support for comments.
-
-## Installation
-
-To install Terrassa run the followings command inside your Hugo site:
-
-```bash
-$ mkdir themes
-$ cd themes
-$ git clone https://github.com/danielkvist/hugo-terrassa-theme.git terrassa
-```
-
-Or
-
-```bash
-$ mkdir themes
-$ cd themes
-$ git submodule add https://github.com/danielkvist/hugo-terrassa-theme.git terrassa
-```
-
-> You can also download the last release [here](https://github.com/danielkvist/hugo-terrassa-theme/releases).
-
-Back to your Hugo site directory open the *config.toml* file and add or change the following line:
-
-```toml
-theme = "terrassa"
-```
+# Based on the Hugo Terrassa theme
 
 ## Configuration
 
@@ -86,7 +38,7 @@ There's a lot more information about the basic configuration of an Hugo site [he
 ### Call To Action
 
 ```toml
-[params.cta] # Call To Action 
+[params.cta] # Call To Action
     show = true
     cta = "Contact"  # Text message of the CTA
     link = "contact" # Relative URL
