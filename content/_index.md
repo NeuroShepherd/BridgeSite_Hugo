@@ -1,7 +1,7 @@
 ---
 title: "Home"
 description: ""
-images: ["bridge_dash.svg"]
+images: ["Bridge_Logo_SVG.svg"]
 draft: false
 menu: main
 weight: 1

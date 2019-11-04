@@ -12,7 +12,7 @@ themesDir = "../.." # Not necessary on production sites
 [params]
     description = "BRIDGE Description"
     favicon = "bridge.png"
-    logo = "bridge.jpg"
+    logo = "bridge.png"
 
 [params.hero]
     textColor = "" # Empty for default color
