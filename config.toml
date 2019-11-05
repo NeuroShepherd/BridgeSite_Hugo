@@ -45,10 +45,10 @@ themesDir = "../.." # Not necessary on production sites
     inputSubmitValue = "Send"
 
 [params.posts]
-    showAuthor = true
+    showAuthor = false
     showDate = true
     showTags = true
-    dateFormat = "Monday, Jan, 2006"
+    dateFormat = "02 January 2006"
 
 [params.contact] # Contact info
     email = "BRIDGE@ucsf.edu"
