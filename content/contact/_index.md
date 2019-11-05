@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Send me a message!"
+description: "Interested in using BRIDGE? Fill out this form!"
 images: []
 draft: false
 menu: main
