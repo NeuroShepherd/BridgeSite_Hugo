@@ -5,6 +5,5 @@ images: []
 draft: false
 menu: main
 weight: 2
+layout: "about"
 ---
-
-Write something About BRIDGE!
