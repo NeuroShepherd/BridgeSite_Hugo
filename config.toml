@@ -11,7 +11,7 @@ themesDir = "../.." # Not necessary on production sites
 
 [params]
     description = "BRIDGE Description"
-    favicon = "bridge.png"
+    favicon = "bridge_favicon.png"
     logo = "bridge.png"
 
 [params.hero]
@@ -40,7 +40,7 @@ themesDir = "../.." # Not necessary on production sites
     inputEmailLabel = "Email"
     inputEmailPlaceholder = "Your email"
     inputMsgName = "message"
-    inputMsgLabel = "Write something"
+    inputMsgLabel = "Message"
     inputMsgLength = 750
     inputSubmitValue = "Send"
 
