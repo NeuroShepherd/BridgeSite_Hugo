@@ -3,8 +3,9 @@
 {{ $style := resources.Get "css/style.css" }}
 {{ $media := resources.Get "css/media-queries.css" }}
 {{ $animations := resources.Get "css/animations.css" }}
+{{ $bootstrap := resources.Get "css/bootstrap.css" }}
 {{ $custom := resources.Get "css/custom.css" }}
-{{ $bundle := slice $reset $base $style $media $animations $custom | resources.Concat "css/bundle.css" }}
+{{ $bundle := slice $reset $base $style $media $animations $custom $bootstrap | resources.Concat "css/bundle.css" }}
 
 {{ $css := $bundle | resources.Minify }}
 

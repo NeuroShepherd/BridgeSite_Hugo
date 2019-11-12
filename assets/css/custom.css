@@ -1,0 +1,59 @@
+.margin-top15{
+	margin-top: 15px;
+}
+
+.margin-top30{
+	margin-top: 30px;
+}
+
+.margin-top50{
+	margin-top: 30px;
+}
+
+.margin-top100{
+	margin-top: 100px;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.width100percent{
+	width: 100%;
+}
+
+.card{
+	padding: 20px;
+}
+
+.divider{
+	width: 100%;
+	border-bottom: 1px solid lightgrey;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.big-divider{
+	width: 100%;
+	border-bottom: 1px solid lightgrey;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+/*nav menu*/
+.header__title{
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header__title__logo{
+	height: 45px;
+	width: 70px;
+}
+
+
+/*profiles css*/
+.profile-picture{
+	width: 100%;
+	padding: 50px;
+}
