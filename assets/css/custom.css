@@ -51,6 +51,12 @@
 	width: 70px;
 }
 
+/*homepage*/
+.homepage-icon{
+	width: 100%;
+	max-width: 100px;
+	text-align: center;
+}
 
 /*profiles css*/
 .profile-picture{
