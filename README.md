@@ -13,7 +13,7 @@ author = "authorhere"   # The author name
 googleAnalytics = ""    # Your Google Analytics tracking ID
 enableRobotsTXT = true
 language = "en-US"
-paginate = 7            # The numbers of posts per page
+paginate = 38            # The numbers of posts per page
 theme = "terrassa"      # Your Hugo theme
 ```
 
