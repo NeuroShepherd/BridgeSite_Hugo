@@ -7,8 +7,6 @@ publishDir = "docs"
 language = "en-US"
 paginate = 5
 
-theme = ""
-
 
 
 [params]
