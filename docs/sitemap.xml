@@ -3,40 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/</loc>
-  </url>
-  
-  <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/people/</loc>
-  </url>
-  
-  <url>
     <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/</loc>
   </url>
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/updates/</loc>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/about/</loc>
   </url>
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/contact/</loc>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/people/</loc>
   </url>
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/placeholder/</loc>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/clinics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/updates/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/clinics/placeholder/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/categories/</loc>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/categories/</loc>
   </url>
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/tags/</loc>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/tags/</loc>
   </url>
   
 </urlset>
