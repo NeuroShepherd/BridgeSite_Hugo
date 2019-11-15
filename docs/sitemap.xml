@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/people/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/updates/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/placeholder/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/tags/</loc>
+  </url>
+  
+</urlset>
