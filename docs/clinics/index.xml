@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clinics on BRIDGE</title>
-    <link>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/clinics/</link>
+    <link>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/</link>
     <description>Recent content in Clinics on BRIDGE</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/clinics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/clinics/placeholder/</link>
+      <link>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/placeholder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/clinics/placeholder/</guid>
+      <guid>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/placeholder/</guid>
       <description>In Discussion   Breast Care Center We are in discussions with the Breast Care center for two different BRIDGE dashboards. One for patient-reported outcomes and the other for connecting to and integrating with the Breast Care Center research patient registry: Athena.  Epilepsy We are in discusssions with the Epilepsy clinic to create a dashboard that would bring in patient generated seizure data, MRIs and monitoring data.  Primary Care We are working with Ida Sim in primary care on her AHRQ grant focused on patient-reported outcomes (PROs) collected through the mPROVE application.</description>
     </item>
     
