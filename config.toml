@@ -1,12 +1,11 @@
-baseurl = "bridge.ucsf.edu"
+baseurl = "https://pcallahanucsf.github.io/BridgeSite_Hugo/"
 title = "BRIDGE"
 author = "Pat Callahan"
 googleAnalytics = ""
 defaultContentLanguage = "en"
-publishDir = "docs"
 language = "en-US"
 paginate = 5
-
+publishDir = "docs"
 
 
 [params]

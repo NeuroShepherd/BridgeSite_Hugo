@@ -3,40 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/</loc>
+    <loc>bridge.ucsf.edu/</loc>
   </url>
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/about/</loc>
+    <loc>bridge.ucsf.edu/about/</loc>
   </url>
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/people/</loc>
+    <loc>bridge.ucsf.edu/people/</loc>
   </url>
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/</loc>
+    <loc>bridge.ucsf.edu/clinics/</loc>
   </url>
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/updates/</loc>
+    <loc>bridge.ucsf.edu/updates/</loc>
   </url>
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/contact/</loc>
+    <loc>bridge.ucsf.edu/contact/</loc>
   </url>
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/clinics/placeholder/</loc>
+    <loc>bridge.ucsf.edu/clinics/placeholder/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/categories/</loc>
+    <loc>bridge.ucsf.edu/categories/</loc>
   </url>
   
   <url>
-    <loc>https://pcallahanucsf.github.io/BridgeSite_Hugo/tags/</loc>
+    <loc>bridge.ucsf.edu/tags/</loc>
   </url>
   
 </urlset>
