@@ -1,4 +1,4 @@
-baseurl = "https://bridge.ucsf.edu"
+baseurl = "https://bridge.ucsf.edu/"
 title = "BRIDGE"
 author = "Pat Callahan"
 googleAnalytics = ""
