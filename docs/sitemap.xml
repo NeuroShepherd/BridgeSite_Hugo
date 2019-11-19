@@ -3,40 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>https://bridge.ucsf.edu/</loc>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://bridge.ucsf.edu/about/</loc>
   </url>
   
   <url>
-    <loc>/people/</loc>
+    <loc>https://bridge.ucsf.edu/people/</loc>
   </url>
   
   <url>
-    <loc>/clinics/</loc>
+    <loc>https://bridge.ucsf.edu/clinics/</loc>
   </url>
   
   <url>
-    <loc>/updates/</loc>
+    <loc>https://bridge.ucsf.edu/updates/</loc>
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>https://bridge.ucsf.edu/contact/</loc>
   </url>
   
   <url>
-    <loc>/clinics/placeholder/</loc>
+    <loc>https://bridge.ucsf.edu/clinics/placeholder/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://bridge.ucsf.edu/categories/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://bridge.ucsf.edu/tags/</loc>
   </url>
   
 </urlset>
