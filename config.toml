@@ -30,7 +30,7 @@ publishDir = "docs"
 
 [params.form] # Contact form
     netlify = true
-    action = "https://formspree.io/your@email.com"
+    action = "https://formspree.io/patrick.callahan@ucsf.edu"
     method = "POST"
     inputNameName = "name"
     inputNameLabel = "Name"
