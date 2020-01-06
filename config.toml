@@ -50,7 +50,7 @@ publishDir = "docs"
     dateFormat = "02 January 2006"
 
 [params.contact] # Contact info
-    email = "apexbridge@ucsf.edu"
+    email = "bridge@ucsf.edu"
     phone = "415 514 3973"
     skype = ""
     address = "675 Nelson Rising Lane, San Francisco CA, 94158"
