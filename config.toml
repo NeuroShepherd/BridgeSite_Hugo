@@ -93,3 +93,4 @@ publishDir = "docs"
     [privacy.youtube]
         disable = false
         privacyEnhanced = true
+        
