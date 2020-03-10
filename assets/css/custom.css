@@ -7,7 +7,7 @@
 }
 
 .margin-top50{
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 .margin-top100{
@@ -40,7 +40,51 @@
 	margin-bottom: 100px;
 }
 
+/*ucsf bar*/
+.ucsf-top-header{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    height: 40px;
+    width: 100vw;
+    background-color: #052049;
+}
+
+.ucsf-top-header .inside{
+	max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.ucsf-top-header .inside ul.menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: white;
+}
+
+.ucsf-top-header .inside ul li a{
+	color: white;
+}
+
+.ucsf-top-header .inside ul.menu li.first {
+    margin-right: 50%;
+}
+
+.ucsf-top-header .inside ul.menu li.links {
+    margin-right: 2%;
+}
+
 /*nav menu*/
+.header{
+	top: 40px;
+}
+
 .header__title{
 	margin-top: 10px;
     margin-bottom: 10px;
