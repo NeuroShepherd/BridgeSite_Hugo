@@ -30,7 +30,7 @@ publishDir = "docs"
 
 [params.form] # Contact form
     netlify = true
-    action = "https://formspree.io/patrick.callahan@ucsf.edu"
+    action = "https://formspree.io/mayddbpn"
     method = "POST"
     inputNameName = "name"
     inputNameLabel = "Name"
@@ -93,4 +93,3 @@ publishDir = "docs"
     [privacy.youtube]
         disable = false
         privacyEnhanced = true
-        
