@@ -29,8 +29,8 @@ publishDir = "docs"
     integrity = "sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
 
 [params.form] # Contact form
-    netlify = true
-    action = "https://formspree.io/patrick.callahan@ucsf.edu"
+    netlify = false
+    action = "https://formspree.io/mayddbpn"
     method = "POST"
     inputNameName = "name"
     inputNameLabel = "Name"
@@ -93,4 +93,3 @@ publishDir = "docs"
     [privacy.youtube]
         disable = false
         privacyEnhanced = true
-        
