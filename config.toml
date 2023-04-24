@@ -53,7 +53,7 @@ publishDir = "docs"
     email = "bridge@ucsf.edu"
     phone = "415 514 3973"
     skype = ""
-    address = "675 Nelson Rising Lane, San Francisco CA, 94158"
+    address = "1651 4th St, San Francisco, CA 94158"
 
 [params.social]
     twitter = ""
