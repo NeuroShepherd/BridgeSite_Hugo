@@ -29,8 +29,8 @@
 .divider{
 	width: 100%;
 	border-bottom: 1px solid lightgrey;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-bottom: 60px;
 }
 
 .big-divider{
@@ -93,6 +93,11 @@
 .header__title__logo{
 	height: 45px;
 	width: 70px;
+}
+
+/*text*/
+h1, h2 {
+	color: #052049;
 }
 
 /*homepage*/

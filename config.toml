@@ -1,6 +1,6 @@
 baseurl = "https://bridge.ucsf.edu/"
 title = "BRIDGE"
-author = "Pat Callahan"
+author = "Nicolette Miller, Pat Callahan"
 googleAnalytics = ""
 defaultContentLanguage = "en"
 language = "en-US"
@@ -51,7 +51,7 @@ publishDir = "docs"
 
 [params.contact] # Contact info
     email = "bridge@ucsf.edu"
-    phone = "415 514 3973"
+    phone = "415 595 2795"
     skype = ""
     address = "1651 4th St, San Francisco, CA 94158"
 
