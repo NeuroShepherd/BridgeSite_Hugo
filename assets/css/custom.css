@@ -1,3 +1,4 @@
+/*margins*/
 .margin-top15{
 	margin-top: 15px;
 }
@@ -14,23 +15,68 @@
 	margin-top: 100px;
 }
 
+.margin-bottom30 {
+	margin-bottom: 30px;
+}
+
+.margin-bottom50 {
+	margin-bottom: 50px;
+}
+
+.margin-bottom100 {
+	margin-bottom: 100px;
+}
+
+/*text*/
+h1, h2, h3, h4 {
+	color: #052049;
+}
+
 .italic{
 	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/*cards*/
+.card{
+	padding: 20px;
+}
+
+.people {
+	width: 18rem;
 }
 
 .width100percent{
 	width: 100%;
 }
 
-.card{
-	padding: 20px;
+.custom-light {
+	background-color: #e6e8ec !important;
 }
 
+.custom-mid {
+	background-color: #b4bcc8 !important;
+}
+
+/*.custom-dark {
+	background-color: #828fa4 !important;
+}*/
+
+/*people*/
+.profile-picture{
+	width: 100%;
+	padding: 15px;
+}
+
+/*dividers*/
 .divider{
 	width: 100%;
 	border-bottom: 1px solid lightgrey;
 	margin-top: 20px;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 }
 
 .big-divider{
@@ -95,22 +141,11 @@
 	width: 70px;
 }
 
-/*text*/
-h1, h2 {
-	color: #052049;
-}
-
 /*homepage*/
 .homepage-icon{
 	width: 100%;
 	max-width: 100px;
 	text-align: center;
-}
-
-/*profiles css*/
-.profile-picture{
-	width: 100%;
-	padding: 50px;
 }
 
 /*clinics*/
