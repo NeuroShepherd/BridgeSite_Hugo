@@ -28,8 +28,12 @@
 }
 
 /*text*/
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
 	color: #052049;
+}
+
+pb {
+	font-weight: bold;
 }
 
 .italic{
@@ -43,6 +47,7 @@ h1, h2, h3, h4 {
 /*cards*/
 .card{
 	padding: 20px;
+	background-color: #e6e8ec !important;
 }
 
 .people {
@@ -52,18 +57,6 @@ h1, h2, h3, h4 {
 .width100percent{
 	width: 100%;
 }
-
-.custom-light {
-	background-color: #e6e8ec !important;
-}
-
-.custom-mid {
-	background-color: #b4bcc8 !important;
-}
-
-/*.custom-dark {
-	background-color: #828fa4 !important;
-}*/
 
 /*people*/
 .profile-picture{
