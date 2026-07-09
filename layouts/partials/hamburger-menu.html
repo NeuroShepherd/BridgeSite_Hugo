@@ -7,8 +7,8 @@
 
         <ul class="hamburger__items" aria-label="mobile-menu">
             {{ range .Site.Menus.main }}
-            <li class="hamburger__items__item" aria-label="{{ .Name }}">
-                <a href="{{ .URL }}" class="hamburger__items__item__link" alt="{{ .Name }}" role="menuitem">
+            <li class="hamburger__items__item">
+                <a href="{{ .URL }}" class="hamburger__items__item__link">
                     {{ .Name }}
                 </a>
             </li>

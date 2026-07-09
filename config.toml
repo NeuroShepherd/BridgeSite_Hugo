@@ -74,6 +74,9 @@ publishDir = "docs"
 [params.copy] # Copyright
     copy = "" # Empty for default content
 
+[security]
+    allowContent = ['.*']
+
 [privacy]
     [privacy.googleAnalytics]
         anonymizeIP = true
@@ -83,7 +86,7 @@ publishDir = "docs"
     [privacy.instagram]
         disable = false
         simple = false
-    [privacy.twitter]
+    [privacy.x]
         disable = false
         enableDNT = true
         simple = false

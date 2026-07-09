@@ -1,16 +1,16 @@
-<div class="ucsf-top-header row-full-width logo">
+<nav class="ucsf-top-header row-full-width logo" aria-label="UCSF global navigation">
     <div class="inside">
         <ul class="menu">
             <li class="first"><a href="http://www.ucsf.edu">University of California San Francisco</a></li>
             <li class="links"><a href="http://www.ucsfhealth.org/">UCSF Health</a></li>
-            <li class="links"><a href="http://www.ucsf.edu/search" title="">Search UCSF</a></li>
+            <li class="links"><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
             <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
         </ul>
     </div>
-</div>
+</nav>
 <header class="header">
     <div class="header__title">
-        <a href="{{ $.Site.BaseURL }}" class="header__title__link" alt="Home">
+        <a href="{{ $.Site.BaseURL }}" class="header__title__link" aria-label="BRIDGE home">
             {{ if $.Site.Params.logo }}
             <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.logo }}" class="header__title__logo" alt="{{ $.Site.Title }}">
             {{ else }}
