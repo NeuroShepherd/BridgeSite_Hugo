@@ -40,6 +40,7 @@ With your authorization, **GATHER** collects data recorded by your Study-assigne
 - Respiratory rate
 - Skin or body temperature
 - Workout, exercise, and activity sessions
+- Location information — as shared with the device during workouts
 - Readiness, stress, and other derived scores provided by the device platform
 - Device and sensor information (device model, battery level, synchronization time)
 
@@ -160,7 +161,6 @@ We may update this Policy from time to time. Material changes affecting particip
 
 **BRIDGE and GATHER — Weill Institute for Neurosciences, UCSF**
 Email: [bridge@ucsf.edu](mailto:bridge@ucsf.edu)
-Phone: 415 595 2795
 Address: 1651 4th St, San Francisco, CA 94158
 
 For questions about your rights as a research participant, please contact the UCSF Institutional Review Board (IRB) / Human Research Protection Program.

@@ -79,7 +79,6 @@ These Terms are governed by the laws of the State of California and applicable U
 
 **BRIDGE and GATHER — Weill Institute for Neurosciences, UCSF**
 Email: [bridge@ucsf.edu](mailto:bridge@ucsf.edu)
-Phone: 415 595 2795
 Address: 1651 4th St, San Francisco, CA 94158
 
 For questions about your rights as a research participant, please contact the UCSF Institutional Review Board (IRB) / Human Research Protection Program.
