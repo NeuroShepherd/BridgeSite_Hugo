@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="container">
+<article class="post" style="min-height:auto;">
+    <header class="post__header" style="display:block;padding:0;text-align:left;">
+        <h1 class="post__title">{{ .Title }}</h1>
+        {{ if .Description }}
+        <p class="post__subtitle" style="text-align:left;margin-top:0.5rem;">{{ .Description }}</p>
+        {{ end }}
+    </header>
+
+    <main class="post__body" style="margin:1.5rem 0 2rem;">
+        {{ .Content }}
+    </main>
+</article>
+<div class="margin-top100"></div>
+</div>
+{{ end }}

@@ -3,6 +3,7 @@ title: "Privacy Policy"
 description: "How the UCSF BRIDGE and GATHER research study collects, uses, stores, and safeguards wearable device data."
 images: []
 draft: false
+layout: "legal"
 ---
 
 **Effective date:** October 5, 2026 &nbsp;&nbsp;|&nbsp;&nbsp; **Last updated:** October 5, 2026

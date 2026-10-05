@@ -3,6 +3,7 @@ title: "Terms of Service"
 description: "Terms governing participation in the UCSF research study and use of the BRIDGE and GATHER applications."
 images: []
 draft: false
+layout: "legal"
 ---
 
 **Effective date:** October 5, 2026 &nbsp;&nbsp;|&nbsp;&nbsp; **Last updated:** October 5, 2026
