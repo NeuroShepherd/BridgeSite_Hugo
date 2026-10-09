@@ -1,12 +1,12 @@
 ---
 title: "Privacy Policy"
-description: "How the UCSF BRIDGE and GATHER research study collects, uses, stores, and safeguards wearable device data."
+description: "How the UCSF BRIDGE and BRIDGE Gather research study collects, uses, stores, and safeguards wearable device data."
 images: []
 draft: false
 layout: "legal"
 ---
 
-**Effective date:** October 5, 2026 &nbsp;&nbsp;|&nbsp;&nbsp; **Last updated:** October 5, 2026
+**Effective date:** October 8, 2026 &nbsp;&nbsp;|&nbsp;&nbsp; **Last updated:** October 8, 2026
 
 ## 1. Introduction
 
@@ -14,16 +14,18 @@ This Privacy Policy explains how the University of California, San Francisco ("U
 
 The Study uses two companion applications:
 
-- **GATHER** — the data-collection application that connects to wearable platforms, retrieves data through their APIs, runs the data pipeline, and stores the data on UCSF internal servers; and
+- **BRIDGE Gather ("GATHER")** — the data-collection application that connects to your Google account, retrieves your data through the Google Health API, and stores it on UCSF internal servers. Google's sign-in and permission screens, and the Linked apps list in your Google Account, show it as "BRIDGE Gather"; and
 - **BRIDGE** — the application used by the clinical and research team to view the collected data, primarily during patient appointments.
 
-Together these are referred to as the "Applications." This Policy applies specifically to data that **GATHER** accesses through third-party wearable platforms — including **Fitbit (a Google service)**, **Oura**, and **Garmin** — and that **BRIDGE** displays to the care team, on behalf of participants who have enrolled in the Study and provided informed consent. It supplements, and does not replace, the informed consent documents you signed when enrolling, the UCSF Notice of Privacy Practices, and the privacy policies of the wearable device manufacturers.
+Together they are referred to as the "Applications." This Policy applies specifically to data that GATHER retrieves through the Google Health API from the Google account you connect, and that BRIDGE displays to the care team, on behalf of participants who have enrolled in the Study and provided informed consent. It also covers data collected from Oura and Garmin devices through those platforms' APIs, as described in Section 10. It supplements, and does not replace, the informed consent documents you signed when enrolling, the UCSF Notice of Privacy Practices, and the privacy policies of the wearable device manufacturers.
 
 If you have questions about this Policy, contact the study team at [bridge@ucsf.edu](mailto:bridge@ucsf.edu).
 
-## 2. About BRIDGE, GATHER, and the Research Study
+## 2. About BRIDGE, BRIDGE Gather, and the Research Study
 
-BRIDGE and GATHER are UCSF research and clinical-care applications operated by the Weill Institute for Neurosciences. **GATHER** connects to participants' wearable devices, collects their data through the device platforms' APIs, runs the data pipeline, and stores the data on UCSF internal servers. **BRIDGE** presents that collected data to the clinical and research team, primarily during patient appointments. Participants are enrolled through an IRB-approved research protocol. As part of the Study, participants are provided with a wearable device (a Fitbit, Oura, or Garmin tracker) and are asked to wear the assigned device so that GATHER can collect health and activity data.
+BRIDGE and BRIDGE Gather ("GATHER") are UCSF research and clinical-care applications operated by the Weill Institute for Neurosciences. GATHER connects to the account your wearable device syncs to, collects your data through that platform's API — for Fitbit devices, the Google Health API — and stores the data on UCSF internal servers. BRIDGE presents that collected data to the clinical and research team, primarily during patient appointments. Participants are enrolled through an IRB-approved research protocol.
+
+As part of the Study, you are given a wearable device (a Fitbit, Oura, or Garmin tracker). For a Fitbit, you sign in to the Google account your device syncs to and allow GATHER to read your data through the Google Health API; for an Oura or Garmin device, you authorize access through that platform's account.
 
 Participation is voluntary. You may decline to participate or withdraw at any time, as described in your informed consent form and in Section 12 below.
 
@@ -31,26 +33,28 @@ Participation is voluntary. You may decline to participate or withdraw at any ti
 
 ### 3.1 Wearable device data
 
-With your authorization, **GATHER** collects data recorded by your Study-assigned wearable device and made available through the device manufacturer's Application Programming Interface (API). Depending on the device and the data scopes you authorize, this may include:
+With your permission, GATHER collects the health and activity data stored in the account you connect, for each day from your Study start date to your Study end date. For Fitbit, GATHER reads your Google account through the Google Health API, not one particular device, so if other devices or apps also send data to that account, their data for those days may be collected too.
 
-- Physical activity (steps, distance, calories, active minutes, floors climbed)
-- Heart rate and heart-rate variability
-- Sleep stages and duration
-- Blood oxygen saturation (SpO₂)
-- Respiratory rate
-- Skin or body temperature
-- Workout, exercise, and activity sessions
-- Location information — as shared with the device during workouts
-- Readiness, stress, and other derived scores provided by the device platform
-- Device and sensor information (device model, battery level, synchronization time)
+Google asks you to let BRIDGE Gather see, read-only, the categories below. GATHER uses and keeps only the items listed, even where a Google permission covers more:
+
+- **Activity and fitness:** your steps for each minute and your daily Active Zone Minutes.
+- **Health metrics and measurements:** your average heart rate for each minute, your daily resting heart rate, and your daily heart-rate variability (RMSSD).
+- **Sleep:** each sleep session, including naps, with its start and end times and time-zone offset; its sleep stages (awake, light, deep and REM, or asleep, restless and awake when stages are not available); its sleep efficiency; and whether it was your main sleep of the night.
+- **Settings (optional):** the time zone in your Google Health settings, used only to divide your data into your own calendar days. If you decline, GATHER uses the time zone the study team recorded for you, or the Study's default.
+
+From this data GATHER calculates daily summaries: total steps, lowest and highest heart rate, hours asleep, and minutes the device was worn during the day (6 a.m. to 10 p.m.) and at night. GATHER cannot change or delete anything in your Google account.
+
+*[Team to confirm: if a start date can be set before the consent date, add — "This can include days before you enrolled, back to the start date set by the study team."]*
+
+For Oura and Garmin devices, GATHER collects comparable activity, heart-rate, and sleep data made available through the Oura and Garmin APIs for the same date range; see Section 10.
 
 ### 3.2 Account and authorization data
 
-When you connect your device, the wearable platform (Google/Fitbit, Oura, or Garmin) provides **GATHER** with authorization tokens and basic profile information needed to retrieve your data (for example, a user identifier and the data scopes you approve). GATHER stores access and refresh tokens securely so that it can collect data for the duration of your participation.
+When you connect, you sign in to Google and choose which permissions to give BRIDGE Gather. Google then gives GATHER an access token, a refresh token and the token's expiry time. GATHER stores these in the Study database on UCSF servers so it can keep retrieving your data until access is revoked. GATHER does not request your name, email address or Google profile from Google, and it never receives your Google password. Connecting an Oura or Garmin device works the same way through that platform's sign-in, giving GATHER tokens that are stored on UCSF servers.
 
 ### 3.3 Study and participant data
 
-We maintain limited information needed to administer the Study, such as your study identifier, enrollment status, the device assigned to you, and records linking your device data to your participation. Where permitted and relevant to your care, Study data may be associated with clinical information in UCSF systems.
+We maintain limited information needed to administer the Study, such as your study identifier, enrollment status, and records linking your device data to your participation. If you are a UCSF patient, BRIDGE may show your wearable data next to information from your UCSF medical record so your care team can review them together.
 
 ### 3.4 What we do not collect
 
@@ -58,15 +62,17 @@ We request only the data scopes necessary for the Study. We do not collect your 
 
 ## 4. Sources of Data (Third-Party Wearable Platforms)
 
-GATHER obtains device data directly from the platform you authorize:
+GATHER obtains data directly from the platform you authorize:
 
-- **Fitbit (a Google service)** — via the Fitbit Web API / Google APIs
-- **Oura** — via the Oura API
-- **Garmin** — via the Garmin Health and Garmin Connect APIs
+- **Google** — through the Google Health API (read-only), which provides the data your Fitbit or other wearable uploads to your Google account through the Google Health app (formerly the Fitbit app).
+- **Oura** — via the Oura API.
+- **Garmin** — via the Garmin Health and Garmin Connect APIs.
+
+*[Team to confirm: if the Study still holds data collected earlier through the Fitbit Web API, add — "Data collected before &lt;date&gt; was retrieved through the Fitbit Web API, which Google is retiring."]*
 
 Your use of each device and platform is also governed by that manufacturer's own terms and privacy policy. We encourage you to review them:
 
-- Google / Fitbit: [policies.google.com/privacy](https://policies.google.com/privacy) and [fitbit.com/global/us/legal/privacy-policy](https://www.fitbit.com/global/us/legal/privacy-policy)
+- Google: [policies.google.com/privacy](https://policies.google.com/privacy)
 - Oura: [ouraring.com/privacy-policy](https://ouraring.com/privacy-policy)
 - Garmin: [garmin.com/en-US/privacy/connect/](https://www.garmin.com/en-US/privacy/connect/)
 
@@ -83,21 +89,21 @@ We use the information described above **only** for the following purposes:
 
 We do **not** use wearable data for advertising or marketing, we do **not** use it for any purpose unrelated to the Study, and we do **not** sell your data.
 
-## 6. Legal Basis and Consent
+## 6. Why We May Use Your Data
 
-Our collection and use of your data is based on the informed consent you provide when enrolling in the Study and on UCSF's role as a research institution and HIPAA covered entity. The specific data practices, risks, and your rights are described in your IRB-approved informed consent documents, which control if there is any conflict with this Policy.
+We collect and use your wearable data because you agreed to it in your IRB-approved informed consent form *[Team to confirm: and in your signed authorization to use your health information for research (your HIPAA authorization)]*, and because you approved access on Google's permission screen. UCSF is a covered entity under the federal Health Insurance Portability and Accountability Act (HIPAA). When your wearable data is combined with your UCSF medical information, we protect it as HIPAA requires. Your consent form *[and HIPAA authorization]* describe our data practices, the risks, and your rights; if they differ from this Policy, they control.
 
 ## 7. How We Store and Protect Your Data
 
-All data collected through **GATHER** is transmitted over encrypted connections and stored on secure, **UCSF-managed internal servers** located within UCSF's protected computing environment. **BRIDGE** accesses this data only to display it to authorized users. We apply administrative, physical, and technical safeguards consistent with UCSF policy, the HIPAA Security Rule, and applicable University of California standards, including:
+GATHER transmits data over encrypted connections and stores it on UCSF-managed internal servers within UCSF's protected computing environment. BRIDGE accesses this data only to display it to authorized users. We apply the following safeguards *(items in brackets to be confirmed by UCSF IT before publishing)*:
 
-- Encryption of data in transit and at rest;
-- Role-based access controls that limit access to authorized Study personnel with a legitimate need;
-- Audit logging and activity monitoring;
-- Secure storage of API access and refresh tokens; and
+- Encryption of data in transit between GATHER and Google (HTTPS)*[, and encryption at rest of the Study database]*;
+- Access to GATHER and BRIDGE limited to authorized Study personnel through *[the UCSF network or VPN / UCSF sign-in]*;
+- *[Logging of who accessed GATHER and BRIDGE, kept and reviewed under UCSF policy;]*
+- Access and refresh tokens kept only in the Study database on UCSF servers and out of GATHER's application logs; when the study team disconnects you or removes you from GATHER, GATHER asks Google to revoke them; and
 - Institutional network, firewall, and endpoint protections.
 
-We do not store Study wearable data on third-party commercial cloud services outside UCSF's approved computing environment.
+Study staff can export a participant's data from GATHER as files for analysis; these files are kept only in *[UCSF-approved locations]*. BRIDGE reads the data from GATHER to display it *[and does / does not keep its own copy]*.
 
 ## 8. How We Share and Disclose Data
 
@@ -111,47 +117,50 @@ We treat your data as confidential and limit disclosure. We may share informatio
 
 We do **not** sell your data, and we do **not** share it for advertising or marketing purposes. We do not transfer, use, or disclose data obtained from the wearable platforms except as described in this Policy.
 
-## 9. Google API Services — Limited Use Disclosure
+## 9. Google Health API — Limited Use Disclosure
 
-The GATHER and BRIDGE applications' use of information received from Google APIs (including the Fitbit Web API) will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. (GATHER retrieves the data from Google APIs; BRIDGE displays it to the care team.) Specifically:
+The use and transfer to any other app of information received from Google APIs, including the Google Health API, by BRIDGE Gather (called GATHER in this Policy) and by BRIDGE will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), the [Google Health API Developer and User Data Policy](https://developers.google.com/health/policies/health-api-developer-user-data-policy), and the [Google Health API User Data and Health Research Policy](https://developers.google.com/health/policies/health-api-user-data-and-research-policy), including the Limited Use requirements. These commitments cover the data we receive from Google and any data aggregated, anonymized, de-identified, or derived from it. Specifically:
 
-- We request access only to the data necessary for the Study;
-- We use that data solely to provide and improve the Study and participant care;
-- We do not transfer or sell the data to third parties, except as necessary to provide or improve the service, to comply with applicable law, or as part of a merger, acquisition, or sale of assets with notice to users;
-- We do not use the data for serving advertisements; and
-- We do not allow humans to read the data unless we have your affirmative consent, it is necessary for security purposes or to comply with applicable law, or the data has been aggregated and de-identified.
+- We request only the read-only Google Health permissions listed in Section 3.1. We never change your Google data.
+- We use your Google Health data only for this Study, as described in Section 5 and in your informed consent form. We do not use or share it for any other research study or purpose unless you give separate informed consent or the UCSF IRB waives that requirement.
+- We transfer your Google Health data to others only (a) with your consent, to provide the Study features described in this Policy, such as showing it to your UCSF clinicians in BRIDGE; (b) for security purposes, such as investigating abuse; or (c) to comply with applicable law.
+- We do not sell your Google Health data, and we do not transfer it to advertising platforms, data brokers, or other information resellers, even in aggregated or anonymized form.
+- We do not use or transfer your Google Health data to serve advertisements, or to determine credit-worthiness or for lending purposes.
+- People may read your individual Google Health data only (a) with your consent: by signing the Study's informed consent form, you agree that authorized Study investigators, research staff, and your UCSF clinicians may view your individual data in GATHER and BRIDGE for the purposes of the Study; (b) when necessary for security purposes, such as investigating abuse; (c) to comply with applicable law; or (d) when the data has been aggregated and anonymized and is used for internal operations.
+
+*[Team to confirm: that the consent form says what the last bullet says, and name any vendor that receives the data in the transfer bullet and in Section 8.]*
 
 ## 10. Platform-Specific Terms (Oura and Garmin)
 
-In addition to the practices above, **GATHER's** handling of **Oura** data complies with the Oura API License Agreement, and its handling of **Garmin** data complies with the Garmin Health / Garmin Connect Developer Program and applicable Garmin platform agreements. GATHER accesses and stores, and BRIDGE displays, Oura and Garmin data solely for the Study purposes described in this Policy; we do not sell it, and we do not disclose it to third parties except as described in this Policy or as required by law.
+In addition to the practices above, GATHER's handling of **Oura** data complies with the Oura API License Agreement, and its handling of **Garmin** data complies with the Garmin Health / Garmin Connect Developer Program and applicable Garmin platform agreements. GATHER accesses and stores, and BRIDGE displays, Oura and Garmin data solely for the Study purposes described in this Policy; we do not sell it, and we do not disclose it to third parties except as described in this Policy or as required by law.
 
 ## 11. Data Retention
 
-We retain wearable, account, and Study data for the duration of your participation and for as long as necessary to fulfill the research purposes of the Study. Afterward, data is retained, de-identified, or securely destroyed in accordance with the IRB-approved protocol, UCSF and University of California records-retention policies, and applicable law. De-identified or aggregated data may be retained indefinitely for research.
+GATHER retrieves data only for the days between your Study start and end dates. We keep your wearable data, and the daily summaries calculated from it, on UCSF servers while you take part and then for *[retention period from the protocol, e.g. "N years after the Study ends"]*. Afterward, data is retained, de-identified, or securely destroyed in accordance with the IRB-approved protocol, UCSF and University of California records-retention policies, and applicable law. De-identified or aggregated data may be retained indefinitely for research.
 
 ## 12. Your Choices and Rights
 
 You have the following choices regarding your wearable data:
 
-- **Withdraw from the Study** at any time by contacting the study team; withdrawal stops future data collection.
-- **Disconnect or revoke access** to your device at any time (see Section 13). Revoking access stops GATHER from collecting new data from that device.
-- **Request access, correction, or deletion** of your data, subject to the limits described in your informed consent, IRB requirements, and applicable law. Some data already used in analyses or required for research integrity may not be able to be deleted.
+- **Withdraw from the Study** at any time by contacting the study team. The team then disconnects GATHER from your Google account, which stops future data collection.
+- **Disconnect:** at your request, the study team revokes GATHER's access to your Google account. Data already collected is kept and handled as described in Section 11.
+- **Deletion:** at your request, the study team removes you from GATHER, which revokes its access to your Google account and permanently deletes the wearable data GATHER stored for you. *[Team to confirm: what happens to exported copies, data shown in BRIDGE, and backups.]* Some data already used in analyses or required for research integrity may not be able to be deleted.
 
 To exercise any of these rights, contact [bridge@ucsf.edu](mailto:bridge@ucsf.edu). Participants also retain the rights described in their informed consent form and the UCSF Notice of Privacy Practices.
 
 ## 13. How to Disconnect a Device or Revoke Access
 
-You can revoke GATHER's access to your wearable data at any time. In your wearable account, GATHER appears as the connected/authorized application:
+You can revoke GATHER's access to your wearable data at any time. In your Google Account, GATHER is listed as "BRIDGE Gather":
 
-- **Fitbit (Google):** On fitbit.com, go to Settings → Applications and remove GATHER; or manage access through your Google Account permissions.
-- **Oura:** In your Oura account, go to Authorized / Connected applications and remove GATHER.
-- **Garmin:** In your Garmin Connect account, remove GATHER from authorized applications.
+- **Google (Fitbit and other devices that sync to your Google account):** in your Google Account, open **Linked apps** ([myaccount.google.com/connections](https://myaccount.google.com/connections)), select **BRIDGE Gather**, and choose **Delete all connections**. This stops new collection; it does not delete data GATHER has already collected (see Sections 11–12).
+- **Oura:** in your Oura account, go to Authorized / Connected applications and remove BRIDGE Gather.
+- **Garmin:** in your Garmin Connect account, remove BRIDGE Gather from authorized applications.
 
 You may also email [bridge@ucsf.edu](mailto:bridge@ucsf.edu) and we will disconnect your device and stop collecting data. Upon revocation we stop retrieving new data; previously collected data is handled as described in Sections 11–12.
 
 ## 14. Children's Privacy
 
-The Study and these Applications are not directed to children except as expressly permitted by the IRB-approved protocol and with appropriate parental or guardian consent. We do not knowingly collect data outside the scope of the approved protocol.
+The Study enrolls only adults 18 and older. GATHER and BRIDGE are not intended for children, and we do not knowingly collect data from anyone under 18. If you believe a child's account has been connected, email us and we will disconnect it and delete the data.
 
 ## 15. Changes to This Policy
 
@@ -159,11 +168,11 @@ We may update this Policy from time to time. Material changes affecting particip
 
 ## 16. Contact Us
 
-**BRIDGE and GATHER — Weill Institute for Neurosciences, UCSF**
+**BRIDGE and BRIDGE Gather — Weill Institute for Neurosciences, UCSF**
 Email: [bridge@ucsf.edu](mailto:bridge@ucsf.edu)
 Address: 1651 4th St, San Francisco, CA 94158
 
-For questions about your rights as a research participant, please contact the UCSF Institutional Review Board (IRB) / Human Research Protection Program.
+If you have questions about your rights as a research participant, or concerns you would like to raise with someone other than the study team, contact the UCSF Human Research Protection Program (HRPP), which oversees the UCSF Institutional Review Board (IRB): call 415-476-1814 (Monday–Friday, 8 a.m.–5 p.m., except UCSF holidays) or visit [irb.ucsf.edu/contact-us](https://irb.ucsf.edu/contact-us). Please mention the IRB number on your consent form.
 
 ---
 

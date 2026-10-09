@@ -9,7 +9,7 @@ publishDir = "docs"
 
 
 [params]
-    description = "BRIDGE Description"
+    description = "BRIDGE brings UCSF patients' research and wearable data to the point of care."
     favicon = "bridge_favicon.png"
     logo = "bridge.png"
 
