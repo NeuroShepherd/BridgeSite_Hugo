@@ -14,7 +14,11 @@
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/clinics/placeholder/</loc>
+    <loc>https://bridge.ucsf.edu/clinics/placeholder/</loc>
+  </url><url>
+    <loc>https://bridge.ucsf.edu/privacy-policy/</loc>
+  </url><url>
+    <loc>https://bridge.ucsf.edu/terms-of-service/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
