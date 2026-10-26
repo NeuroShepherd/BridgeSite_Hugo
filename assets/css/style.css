@@ -49,39 +49,23 @@
 
 .menu__items__item__link {
 	color: var(--primary-text);
-	padding: 0.5rem 0;
+	padding: 0.5rem 1rem;
 	position: relative;
+	border-radius: 8px;
+	transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
 }
 
 .menu__items__item__link:hover,
 .menu__items__item__link:focus {
 	color: var(--primary-text);
 	text-decoration: none;
+	background-color: rgba(0, 113, 173, 0.1);
 }
 
-.menu__items__item__link::before {
-	bottom: 0;
-	content: "";
-	display: block;
-	height: 3px;
-	position: absolute;
-	transition: all 0.25s ease-in-out;
-	width: 0%;
-}
-
-.menu__items__item__link::before {
-	background-color: var(--primary);
-}
-
-.menu__items__item__link:hover::before,
-.menu__items__item__link:focus::before {
-	opacity: 1;
-	width: 100%;
-}
-
-.menu__items__item__link.active::before {
-	opacity: 1;
-	width: 100%;
+.menu__items__item__link.active {
+	background-color: rgba(0, 113, 173, 0.15);
+	color: #052049;
+	font-weight: 600;
 }
 
 /* HAMBURGER MENU */

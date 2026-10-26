@@ -1,22 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Home on BRIDGE</title>
-		<link>http://localhost:1313/</link>
-		<description>Recent content in Home on BRIDGE</description>
-		<generator>Hugo</generator>
-		<language>en</language>
-		
-		
-		
-		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title></title>
-				<link>http://localhost:1313/clinics/placeholder/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/clinics/placeholder/</guid>
-				<description>&lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;&#xA;&lt;div class=&#34;row margin-top100&#34;&gt;&#xA;&#x9;&lt;div class=&#34;col-md-12&#34;&gt;&#xA;&#x9;&#x9;&lt;h2&gt;In Discussion&lt;/h2&gt;&#xA;&#x9;&#x9;&lt;hr&gt;&#xA;&#x9;&lt;/div&gt;&#xA;&#x9;&lt;div class=&#34;col-md-4 text-center&#34;&gt;&#xA;&#x9;&#x9;&lt;h4&gt;Breast Care Center&lt;/h4&gt;&#xA;&#x9;&#x9;&lt;div&gt;We are in discussions with the Breast Care center for two different BRIDGE dashboards. One for patient-reported outcomes and the other for connecting to and integrating with the Breast Care Center research patient registry: Athena.&lt;/div&gt;&#xA;&#x9;&lt;/div&gt;&#xA;&#x9;&lt;div class=&#34;col-md-4 text-center&#34;&gt;&#xA;&#x9;&#x9;&lt;h4&gt;Epilepsy&lt;/h4&gt;&#xA;&#x9;&#x9;&lt;div&gt;We are in discusssions with the Epilepsy clinic to create a dashboard that would bring in patient generated seizure data, MRIs and monitoring data.&lt;/div&gt;&#xA;&#x9;&lt;/div&gt;&#xA;&#x9;&lt;div class=&#34;col-md-4 text-center&#34;&gt;&#xA;&#x9;&#x9;&lt;h4&gt;Primary Care&lt;/h4&gt;&#xA;&#x9;&#x9;&lt;div&gt;We are working with Ida Sim in primary care on her AHRQ grant focused on patient-reported outcomes (PROs) collected through the mPROVE application. We will be working on developing a dashboard to bring mPROVE PROs to BRIDGE.&lt;/div&gt;&#xA;&#x9;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;row margin-top100&#34;&gt;&#xA;&#x9;&lt;div class=&#34;col-md-4 offset-md-4 text-center&#34;&gt;&#xA;&#x9;&#x9;&lt;h4&gt;Traumatic Brain Injury&lt;/h4&gt;&#xA;&#x9;&#x9;&lt;div&gt;We are working with the Traumatic Brain Injury clinic to design and specify a dashboard for their clinical workflow.&lt;/div&gt;&#xA;&#x9;&lt;/div&gt;&#xA;&#x9;&lt;div class=&#34;col-md-4 text-center&#34;&gt;&#xA;&#x9;&#x9;&lt;h4&gt;&lt;/h4&gt;&#xA;&#x9;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
-			</item>
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on BRIDGE</title><link>https://bridge.ucsf.edu/</link><description>Recent content in Home on BRIDGE</description><generator>Hugo</generator><language>en</language><atom:link href="https://bridge.ucsf.edu/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://bridge.ucsf.edu/clinics/placeholder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bridge.ucsf.edu/clinics/placeholder/</guid><description>&lt;div class="divider"&gt;&lt;/div&gt;
+&lt;div class="row margin-top100"&gt;
+	&lt;div class="col-md-12"&gt;
+		&lt;h2&gt;In Discussion&lt;/h2&gt;
+		&lt;hr&gt;
+	&lt;/div&gt;
+	&lt;div class="col-md-4 text-center"&gt;
+		&lt;h4&gt;Breast Care Center&lt;/h4&gt;
+		&lt;div&gt;We are in discussions with the Breast Care center for two different BRIDGE dashboards. One for patient-reported outcomes and the other for connecting to and integrating with the Breast Care Center research patient registry: Athena.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="col-md-4 text-center"&gt;
+		&lt;h4&gt;Epilepsy&lt;/h4&gt;
+		&lt;div&gt;We are in discusssions with the Epilepsy clinic to create a dashboard that would bring in patient generated seizure data, MRIs and monitoring data.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="col-md-4 text-center"&gt;
+		&lt;h4&gt;Primary Care&lt;/h4&gt;
+		&lt;div&gt;We are working with Ida Sim in primary care on her AHRQ grant focused on patient-reported outcomes (PROs) collected through the mPROVE application. We will be working on developing a dashboard to bring mPROVE PROs to BRIDGE.&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row margin-top100"&gt;
+	&lt;div class="col-md-4 offset-md-4 text-center"&gt;
+		&lt;h4&gt;Traumatic Brain Injury&lt;/h4&gt;
+		&lt;div&gt;We are working with the Traumatic Brain Injury clinic to design and specify a dashboard for their clinical workflow.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="col-md-4 text-center"&gt;
+		&lt;h4&gt;&lt;/h4&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Privacy Policy</title><link>https://bridge.ucsf.edu/privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bridge.ucsf.edu/privacy-policy/</guid><description>&lt;p&gt;&lt;strong&gt;Effective date:&lt;/strong&gt; October 8, 2026   |   &lt;strong&gt;Last updated:&lt;/strong&gt; October 8, 2026&lt;/p&gt;
+&lt;h2 id="1-introduction"&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;This Privacy Policy explains how the University of California, San Francisco (&amp;ldquo;UCSF,&amp;rdquo; &amp;ldquo;we,&amp;rdquo; &amp;ldquo;us,&amp;rdquo; or &amp;ldquo;our&amp;rdquo;) collects, uses, stores, shares, and protects information obtained from wearable activity and health trackers in connection with an Institutional Review Board (IRB)–approved research study (the &amp;ldquo;Study&amp;rdquo;).&lt;/p&gt;
+&lt;p&gt;The Study uses two companion applications:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BRIDGE Gather (&amp;ldquo;GATHER&amp;rdquo;)&lt;/strong&gt; — the data-collection application that connects to your Google account, retrieves your data through the Google Health API, and stores it on UCSF internal servers. Google&amp;rsquo;s sign-in and permission screens, and the Linked apps list in your Google Account, show it as &amp;ldquo;BRIDGE Gather&amp;rdquo;; and&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BRIDGE&lt;/strong&gt; — the application used by the clinical and research team to view the collected data, primarily during patient appointments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Together they are referred to as the &amp;ldquo;Applications.&amp;rdquo; This Policy applies specifically to data that GATHER retrieves through the Google Health API from the Google account you connect, and that BRIDGE displays to the care team, on behalf of participants who have enrolled in the Study and provided informed consent. It also covers data collected from Oura and Garmin devices through those platforms&amp;rsquo; APIs, as described in Section 10. It supplements, and does not replace, the informed consent documents you signed when enrolling, the UCSF Notice of Privacy Practices, and the privacy policies of the wearable device manufacturers.&lt;/p&gt;</description></item><item><title>Terms of Service</title><link>https://bridge.ucsf.edu/terms-of-service/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bridge.ucsf.edu/terms-of-service/</guid><description>&lt;p&gt;&lt;strong&gt;Effective date:&lt;/strong&gt; October 8, 2026   |   &lt;strong&gt;Last updated:&lt;/strong&gt; October 8, 2026&lt;/p&gt;
+&lt;h2 id="1-acceptance-of-these-terms"&gt;1. Acceptance of These Terms&lt;/h2&gt;
+&lt;p&gt;These Terms of Service (&amp;ldquo;Terms&amp;rdquo;) set the rules for using the &lt;strong&gt;BRIDGE&lt;/strong&gt; and &lt;strong&gt;BRIDGE Gather (&amp;ldquo;GATHER&amp;rdquo;)&lt;/strong&gt; applications, operated by the University of California, San Francisco (&amp;ldquo;UCSF,&amp;rdquo; &amp;ldquo;we,&amp;rdquo; &amp;ldquo;us,&amp;rdquo; or &amp;ldquo;our&amp;rdquo;). GATHER is the data-collection application that connects to the account your wearable device syncs to, retrieves your data through that platform&amp;rsquo;s API (for Fitbit, the Google Health API), and stores it on UCSF internal servers; BRIDGE is the application used by your care team to view that data, primarily during appointments. Your participation in the research study (the &amp;ldquo;Study&amp;rdquo;) is governed by your IRB-approved informed consent form, not by these Terms. These Terms do not change what you agreed to in your consent form and do not take away any of your rights. If you have questions about them, ask the study team before you connect your account.&lt;/p&gt;</description></item></channel></rss>

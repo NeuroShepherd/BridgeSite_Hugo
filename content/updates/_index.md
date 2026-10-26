@@ -2,8 +2,7 @@
 title: "Updates"
 description: ""
 images: []
-draft: false
-menu: main
+draft: true
 weight: 5
 layout: "updates"
 ---
