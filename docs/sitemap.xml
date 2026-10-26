@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bridge.ucsf.edu/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://bridge.ucsf.edu/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://bridge.ucsf.edu/people/</loc>
+    <loc>http://localhost:1313/people/</loc>
   </url><url>
-    <loc>https://bridge.ucsf.edu/clinics/</loc>
+    <loc>http://localhost:1313/clinics/</loc>
   </url><url>
-    <loc>https://bridge.ucsf.edu/updates/</loc>
+    <loc>http://localhost:1313/updates/</loc>
   </url><url>
-    <loc>https://bridge.ucsf.edu/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>https://bridge.ucsf.edu/clinics/placeholder/</loc>
+    <loc>http://localhost:1313/clinics/placeholder/</loc>
   </url><url>
-    <loc>https://bridge.ucsf.edu/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://bridge.ucsf.edu/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
