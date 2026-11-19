@@ -4,7 +4,7 @@ description: ""
 images: []
 draft: false
 menu: main
-weight: 3
+weight: 6
 layout: "people"
 ---
 

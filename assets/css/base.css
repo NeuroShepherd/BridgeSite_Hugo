@@ -5,15 +5,22 @@
     --header: 1.999rem;
     --subheader: 1.414rem;
 
-    /* Colors */
-    --primary: #568200;
-    --primary-dark: #0071AD;
-    --primary-light: #568200;
+    /* Colors — derived from BRIDGE logo */
+    --navy: #052049;
+    --gold: #F2C75C;
+    --gold-dark: #D4A843;
+    --salmon: #E8A0A0;
+    --sage: #B5D6A7;
+    --lavender: #B8A9D4;
+    --lavender-dark: #8D7AB5;
+    --primary: #052049;
+    --primary-dark: #052049;
+    --primary-light: #F2C75C;
     --primary-text: #212121;
     --secondary-text: #333333;
-    --accent: #3d5afe;
+    --accent: #0071AD;
     --divider: #bdbdbd;
-    --white: #fdfdfd;
+    --white: #FAF7F2;
 
     /* Breakpoints */
     --sm: 576px;
@@ -31,6 +38,7 @@ a:hover {
 }
 
 body {
+    background-color: var(--white);
     color: var(--primary-text);
 }
 

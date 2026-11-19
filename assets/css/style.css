@@ -3,7 +3,7 @@
 	background-color: var(--white);
 	box-shadow: 0 1px 5px var(--divider);
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: 1fr auto 1fr;
 	grid-template-rows: 1fr;
 	position: fixed;
 	top: 0;
@@ -34,13 +34,12 @@
 	align-items: center;
 	display: flex;
 	hyphens: none;
-	margin-right: 4.5rem;
+	justify-content: center;
 }
 
 .menu__items {
 	display: flex;
-	justify-content: space-evenly;
-	width: 100%;
+	justify-content: center;
 }
 
 .menu__items__item {
@@ -59,11 +58,11 @@
 .menu__items__item__link:focus {
 	color: var(--primary-text);
 	text-decoration: none;
-	background-color: rgba(0, 113, 173, 0.1);
+	background-color: rgba(242, 199, 92, 0.2);
 }
 
 .menu__items__item__link.active {
-	background-color: rgba(0, 113, 173, 0.15);
+	background-color: rgba(242, 199, 92, 0.35);
 	color: #052049;
 	font-weight: 600;
 }

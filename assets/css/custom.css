@@ -189,19 +189,19 @@ pb {
 }
 
 .feature-card--3 {
-	background: linear-gradient(135deg, #0071ad, #058ca8);
+	background: linear-gradient(135deg, #D4A843, #F2C75C);
 }
 
 .feature-card--4 {
-	background: linear-gradient(135deg, #058ca8, #2a7f62);
+	background: linear-gradient(135deg, #c07070, #E8A0A0);
 }
 
 .feature-card--5 {
-	background: linear-gradient(135deg, #2a7f62, #568200);
+	background: linear-gradient(135deg, #7aab68, #B5D6A7);
 }
 
 .feature-card--6 {
-	background: linear-gradient(135deg, #3a3580, #6950a1);
+	background: linear-gradient(135deg, #8D7AB5, #B8A9D4);
 }
 
 /*clinics*/

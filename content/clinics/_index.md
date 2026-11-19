@@ -2,8 +2,7 @@
 title: "Clinics"
 description: ""
 images: []
-draft: false
-menu: main
+draft: true
 weight: 4
 layout: "clinics"
 ---
